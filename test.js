@@ -18,7 +18,7 @@ function init() {
     log('Test 3: Adding another .someClass to the wrapper');
     wrapper.append($('section', { class: 'someClass' }, 'Test 3: Section created'));
 
-    log('Test 4: Enumerating the sections that have the class .someClass');
+    log('Test 4: Enumerating the sections that have the class someClass');
     let i = 1;
     $('.someClass').forEach(function(el) {
         el.append($('p', 'Test 4: Section ' + i));
